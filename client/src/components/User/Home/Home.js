@@ -19,6 +19,7 @@ export default function Home() {
                 <img src={poster} className='img-fluid ads'></img>
                 <img src={miLedAd1} className='img-fluid ads'></img>
                 <img src={miLedAd2} className='img-fluid ads'></img>
+                <img src={miLedAd1} className='img-fluid ads'></img>
             </div>
         </div>
     )

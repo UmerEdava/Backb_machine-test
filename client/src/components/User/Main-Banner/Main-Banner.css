@@ -4,6 +4,7 @@
     /* opacity: 0.4; */
     width: 100%;
     height: 32rem;
+    height: 29rem;
 }
 .mainBanner{
     /* background: #111111;
@@ -36,4 +37,8 @@
     position: absolute;
     top: 0%;
     right: -5%;
+}
+.buyButton{
+    margin-top: 13rem;
+    background-color: #F9DE08;
 }

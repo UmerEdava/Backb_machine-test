@@ -62,7 +62,7 @@ export default function CategoriesBanner() {
                 <div className='circle'>
                     <img src={allCategories} className='categoryImages'></img>
                 </div>
-                <p className='categoryName'>Mobiles & tablets</p>
+                <p className='categoryName'>All Categories</p>
             </div>                     
         </div>
     )

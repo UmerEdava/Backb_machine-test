@@ -4,7 +4,7 @@ import iphoneImage from '../../../images/iphone_12_PNG22.png'
 import macAdvertisement from '../../../images/mac-air-advertisement.jpg'
 import sonyBraviaBanner from '../../../images/sonyBravia-banner.jpg'
 import iphoneBanner from '../../../images/banner.png'
-
+import buyIcon from '../../../images/buyIcon.png'
 import './Main-Banner.css'
 
 export default function MainBanner() {
@@ -25,6 +25,8 @@ export default function MainBanner() {
                         <div class="carousel-item active">
                             <img src={iphoneBanner} class="d-block w-100 bannerImage img-fluid" alt="..."/>
                             <div class="carousel-caption text-left d-none d-md-block" style={{left:'8%',top:'5rem'}}>
+                                <button className='btn btn-warning btn-lg buyButton' style={{color: '#0302FE'}}>Buy Now 
+                                <img src={buyIcon} style={{marginLeft:'10px'}}></img></button>
                                 {/* <h1 className='bannerCaption'>GET THE NEW IPHONE 12 PRO</h1> */}
                                 {/* <p className='captionDescription'>A transportive triple-camera system that adds tons of capability without<br/> complexity.</p> */}
                             </div>
@@ -32,20 +34,14 @@ export default function MainBanner() {
                                 <img src={iphoneImage}></img>
                             </div> */}
                         </div>
-                        {/* <div class="carousel-item">
-                            <img src={macAdvertisement} class="d-block w-100 bannerImage img-fluid" alt="..."/>
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Second slide label</h5>
-                                <p>Some representative placeholder content for the second slide.</p>
-                            </div>
+                        <div class="carousel-item">
+                            <img src={macAdvertisement} className="d-block w-100 bannerImage img-fluid" style={{height: '29rem'}} alt="..."/>
+                            
                         </div>
                         <div class="carousel-item">
-                            <img src={sonyBraviaBanner} class="d-block w-100 bannerImage img-fluid" style={{opacity: '1'}} alt="..."/>
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Third slide label</h5>
-                                <p>Some representative placeholder content for the third slide.</p>
-                            </div>
-                        </div> */}
+                            <img src={sonyBraviaBanner} className="d-block w-100 bannerImage img-fluid" style={{height: '29rem'}} alt="..."/>
+                            
+                        </div> 
                     </div>
                     
                 </div>

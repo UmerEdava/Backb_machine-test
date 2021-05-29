@@ -1,0 +1,12 @@
+.loginMain{
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190827/pngtree-trendy-gradient-background-with-geometric-memphis-abstract-image_306666.jpg);
+    height: 100vh;
+    background-repeat: round;
+}
+.formContainer{
+    height: 86vh;
+    background-color: white;
+    margin-top: -36rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}

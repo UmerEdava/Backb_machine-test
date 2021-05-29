@@ -5,4 +5,16 @@
     display: flex;
     overflow-x: scroll;
     overflow-y: hidden;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.adContainer::-webkit-scrollbar{
+    display: none;
+}
+.adContainer:first-child { margin-left: -1.5rem; }
+@media only screen and (max-width: 425px){
+    .adContainer{
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
