@@ -1,0 +1,61 @@
+#header{
+    width: 100%;
+    background-color: white;
+    height: 4.5rem;
+    padding-top: 0.8rem;
+}
+.logo{
+    display: inline;
+    float: left;
+    margin-left: 2rem;
+    font-size: 2rem;
+    margin-left: 4vw;
+}
+.searchBox{
+    max-width: 17rem;
+    border: 0;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    flex: 1;
+}
+.searchContainer {
+    display: inline-flex;
+    flex: 1 1 300px;
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.searchIcon {
+    padding: 0.5rem;
+}
+.iconsContainer{
+    float: right;
+    margin-right: 2vw;
+    margin-top: 8px;
+}
+.icons{
+    margin-right: 1rem;
+    font-size: 21px;
+}
+.hamburgerIcon{
+    float: right;
+    margin-right: 18px;
+    margin-top: 12px;
+    font-size: 24px;
+    display: none;
+}
+@media only screen and (max-width: 840px){
+	/*Big smartphones [426px -> 600px]*/
+    .iconsContainer{
+        display: none;
+    }
+    .hamburgerIcon{
+        display: inline-block;
+    }
+}
+@media only screen and (max-width: 940px){
+    #searchBar{
+        width: 36vw;
+        display: none;
+    }    
+}

@@ -1,0 +1,39 @@
+.bannerImage{
+    /* margin-top: -5rem; */
+    object-fit: cover;
+    /* opacity: 0.4; */
+    width: 100%;
+    height: 32rem;
+}
+.mainBanner{
+    /* background: #111111;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    color: white; */
+}
+.content-left {
+   position: absolute;
+   top: 5rem;
+   left: 16px;
+}
+.carousel-caption{
+    position: absolute;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    top: 8rem;
+    max-width: 37rem;
+}
+.bannerCaption{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.captionDescription{
+    line-height: 28px;
+}
+.productImages{
+    position: absolute;
+    top: 0%;
+    right: -5%;
+}

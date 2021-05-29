@@ -1,0 +1,35 @@
+#categories{
+    height: 6.5rem;
+    background-color: #0302FE;
+    position: relative;
+    padding-top: 8px;
+    overflow-x: scroll;
+    display: flex;
+    overflow-y: hidden;
+    justify-content: center;
+}
+#categories::-webkit-scrollbar{
+    display: none;
+}
+.circle {
+    height: 58px;
+    width: 58px;
+    background-color: #fff700;
+    border-radius: 50%;
+}
+.box{
+    display: inline-block;
+    margin-top: 2px;
+    margin-right: 3rem;
+}
+.categoryName{
+    max-width: 64px;
+    font-size: 11px;
+    color: white;
+    line-height: 12px;
+    margin-top: 4px;
+}
+.categoryImages{
+    height: 29px;
+    margin-top: 14px;
+}

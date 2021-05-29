@@ -1,0 +1,8 @@
+.ads{
+    margin-right: -1rem;
+}
+.adContainer{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
