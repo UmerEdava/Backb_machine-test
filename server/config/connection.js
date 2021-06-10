@@ -6,7 +6,7 @@ let state = {
 
 module.exports = {
     connect: (done) => {
-        let url = 'mongodb://localhost:27017'
+        let url = process.env.MONGODBURL
         let dbName = 'machine-test_BackB'
 
         MongoClient.connect(url,(err,data)=>{

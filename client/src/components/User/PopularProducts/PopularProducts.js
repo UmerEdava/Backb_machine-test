@@ -1,6 +1,6 @@
 import React from 'react'
 import './PopularProducts.css'
-import image from '../../../images/sonyBravia-banner.jpg'
+import image from '../../../images/sonyBravia-banner.png'
 import ps5Image from '../../../images/playstation-5-with-dualsense-front-product-shot.png'
 
 

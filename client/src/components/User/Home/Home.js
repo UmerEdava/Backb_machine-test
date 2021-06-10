@@ -9,6 +9,7 @@ import miLedAd2 from '../../../images/Xiaomi-Mi-TV-4-Buy-Online.png'
 import './Home.css'
 
 export default function Home() {
+    document.body.style.backgroundColor = 'white'
     return (    
         <div id='home'>
             <Header/>

@@ -1,12 +1,109 @@
 .loginMain{
-    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190827/pngtree-trendy-gradient-background-with-geometric-memphis-abstract-image_306666.jpg);
+    background-image: url(https://media.istockphoto.com/vectors/abstract-uneven-backbrond-vector-id1145351600?k=6&m=1145351600&s=612x612&w=0&h=u7RqYXxnZc_Xu1gVLmHDM5S2J5wan8BAjTSZmHYpWIU=);
     height: 100vh;
     background-repeat: round;
 }
 .formContainer{
-    height: 86vh;
-    background-color: white;
-    margin-top: -36rem;
-    margin-left: 3rem;
+    height: 100%;
+    width: 83%;
+    background-color: #fcfcfc;
+    margin-top: 2rem;
+    margin-left: 8vw;
     margin-right: 3rem;
+    padding: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 2rem;
+    box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 5px; 
+}
+.formBox{
+    background-color: white;
+    height: 32rem;
+    margin-left: 0rem;
+    height: 27rem;
+    border-radius: 9px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+    display: inline-block;
+    
+}
+.loginInput{
+    padding-left: 16px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid #a39f9fcc;
+    color:#a39f9fcc;
+    width: 100%;
+    line-height: 2rem;
+}
+.loginLabel{
+    margin-bottom: 0rem;
+    font-weight: 500;
+    font-size: 14px;
+}
+.rememberLabel{
+    font-size: 13px;
+    color: #aeaaaa;
+    vertical-align: middle;
+}
+.loginButton{
+    width: 100%;
+    background-color: #5c4ffa;
+    border: none;
+    border-radius: 6px;
+    font-size: 12px;
+    color: white;
+    height: 2rem;
+}
+.socialMediaButton{
+    display: inline-block;
+    margin-right: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px 23px 5px 23px;
+    font-weight: 500;
+}
+.shoppingImage{
+    height: 26vw;
+    display: inline-block;
+    margin-top: -24rem;
+}
+@media only screen and (max-width: 844px) {
+    .shoppingImage{
+        display: none;
+    }
+}
+@media only screen and (max-width: 700px) {
+    
+    .formContainer{
+        background-color: #fcfcfc;
+        padding-top: 3rem;
+        padding-bottom: 3rem;   
+        margin: 0;
+        width: 100%;
+        height: 100%; 
+        box-shadow: 5px 10px transparent;
+    }
+    .formBox{
+        width: 75%;
+    }
+
+}
+@media only screen and (max-width: 565px){
+    .formContainer{
+        padding: 0;
+        padding-top: 4rem;
+        background-color: white;
+    }
+    .formBox{
+        box-shadow: 5px 10px transparent;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 943px) {
+    .shoppingImage{
+        height: 21vw;
+    } 
 }

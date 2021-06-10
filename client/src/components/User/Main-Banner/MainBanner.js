@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from '../../../images/Mask.png'
 import iphoneImage from '../../../images/iphone_12_PNG22.png'
-import macAdvertisement from '../../../images/mac-air-advertisement.jpg'
-import sonyBraviaBanner from '../../../images/sonyBravia-banner.jpg'
+import macAdvertisement from '../../../images/mac-air-advertisement.png'
+import sonyBraviaBanner from '../../../images/sonyBravia-banner.png'
 import iphoneBanner from '../../../images/banner.png'
 import buyIcon from '../../../images/buyIcon.png'
 import './Main-Banner.css'
@@ -35,11 +35,11 @@ export default function MainBanner() {
                             </div> */}
                         </div>
                         <div class="carousel-item">
-                            <img src={macAdvertisement} className="d-block w-100 bannerImage img-fluid" style={{height: '29rem'}} alt="..."/>
+                            <img src={macAdvertisement} className="d-block w-100 bannerImage img-fluid" alt="..."/>
                             
                         </div>
                         <div class="carousel-item">
-                            <img src={sonyBraviaBanner} className="d-block w-100 bannerImage img-fluid" style={{height: '29rem'}} alt="..."/>
+                            <img src={sonyBraviaBanner} className="d-block w-100 bannerImage img-fluid" alt="..."/>
                             
                         </div> 
                     </div>

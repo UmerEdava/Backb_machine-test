@@ -36,6 +36,7 @@
 .icons{
     margin-right: 1rem;
     font-size: 21px;
+    cursor: pointer;
 }
 .hamburgerIcon{
     float: right;
@@ -62,6 +63,35 @@
     margin-left: 11px;
     margin-top: 3px;
     z-index: 1;
+    cursor: pointer;
+}
+.userButton{
+    background-color: transparent;
+    border: none;
+    width: 1.2rem;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-right: 10px;
+}
+#loginButton{
+    float: right;
+    margin-right: 2rem;
+    margin-top: 7px;
+    background-color: white;
+    border: 2px solid #6c6cd9;
+    border-radius: 6px;
+    font-size: 17px;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: #3939dd;
+    font-weight: 500;
+}
+#simple-menu{
+    /* display: none; */
 }
 @media only screen and (max-width: 840px){
 	/*Big smartphones [426px -> 600px]*/
@@ -70,6 +100,9 @@
     }
     .hamburgerIcon{
         display: inline-block;
+    }
+    #loginButton{
+        display: none;
     }
 }
 @media only screen and (max-width: 940px){
